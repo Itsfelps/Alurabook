@@ -11,71 +11,64 @@ body{
     align-items: center;
     flex-direction: column;
 }
-
 .container{
- max-width: 720px;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- padding: 0 14px;
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 14px;
 }
-
 .logo{
-  width: 227px;
-
+    max-width: 227px;
 }
 .title{
     text-align: center;
-    color: #fff;
+    color: aliceblue;
     margin: 24px 0;
 }
-
 .form label{
     color: #fff;
     font-size: 20px;
 }
-
 input{
     width: 100%;
     height: 48px;
     border-radius: 4px;
     font-size: 20px;
     padding: 0 14px;
-    margin-top:8px;
+    margin-top: 8px;
     margin-bottom: 16px;
 }
-
 .button{
-  width: 100%;
-  height: 48px;
-  background-color: #7c1f6d;
-  cursor: pointer;
-  border-radius: 20px;
-  color: #fff;
-  font-size: 22px;
+    width: 100%;
+    height: 48px;
+    background-color: brown;
+    cursor: pointer;
+    border: 0;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
 }
 .result{
-    background-color: #c067c8b0;
+    background-color: brown;
     max-width: 520px;
-    padding: 18px 20px ;
+    padding: 20px 28px;
     text-align: center;
-    margin-top: 18px;
+    margin-top: 28px;
     border-radius: 4px;
-    display:flex;
-   flex-direction: column;
-   border: 1px solid #696969;
-   user-select: none;
-   transition: transform 0,8s;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #696969;
+    user-select: none;
+    transition: transform 0.8s;
 }
 .hide{
     display: none;
 }
-
 .result:hover{
- transform: scale(1.1);
+    transform: scale(1.1);
 }
-
 .result span{
     color: #fff;
     margin-bottom: 8px;
@@ -92,21 +85,20 @@ input{
 .info-img{
     width: 66px;
     height: 66px;
-
 }
 .tooltip{
     color: #fff;
-    background-color: rgb(15,15,15);
+    background-color: rgb(15, 15, 15);
     padding: 10px 8px;
     border-radius: 6px;
-    bottom:28px;
+    position: relative;
+    bottom: 28px;
     display: none;
 
 }
 .info:hover .tooltip{
     display: inline;
 }
-
 .sobre{
     max-width: 620px;
     background-color: #242424;
@@ -114,28 +106,22 @@ input{
     border: 1px solid #696969;
     border-radius: 4px;
 }
-
 .sobre p{
     color: #fff;
     margin-bottom: 8px;
-   line-height: 150%;
-
+    line-height: 150%;
 }
-
 .button-calcular{
-    background-color: #b16bcf;
+    background-color: #119cea;
     height: 48px;
     width: 70%;
     display: flex;
     justify-content: center;
-    align-items:center;
-    color:#ffff;
-    text-decoration:none;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
     font-size: 22px;
     font-weight: bold;
     margin-top: 24px;
     border-radius: 4px;
-    
 }
- 
-
